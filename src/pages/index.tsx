@@ -186,8 +186,8 @@ export default function Home() {
             <ContentWrapper message={""}>{actions(state)}</ContentWrapper>
             {result(state)}
             <Links />
-            {/* {info?.standalone && <SeoText />} */}
-            <SeoText />
+            {info?.standalone && <SeoText />}
+            {/* <SeoText /> */}
             <Disclaimer />
           </div>
         )}
