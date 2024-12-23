@@ -270,7 +270,7 @@ export default function SeoText() {
         <div className="open-info">
           <span className="infoTextHoraire">
             <span>Ouvert de<p className="heureOC">&nbsp;{openParc}&nbsp;</p>à<p className="heureOC">&nbsp;{closeParc}</p>.</span>
-            <span>le parc sera<p className={`POC ${openedorclosetoday === 'ouvert' ? 'text-green ' : 'text-red'}`}>&nbsp;{openedorclosetoday}&nbsp;</p>aujourd'huit</span>
+            <span>le parc sera<p className={`POC ${openedorclosetoday === 'ouvert' ? 'text-green ' : 'text-red'}`}>&nbsp;{openedorclosetoday}&nbsp;</p>aujourd'hui</span>
           </span>
         </div>
         <div className="update-info">
