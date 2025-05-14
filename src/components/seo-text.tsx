@@ -176,7 +176,7 @@ export default function SeoText() {
   useEffect(() => {
     const updateBackground = () => {
       const hour = new Date().getHours(); // Obtenir l'heure actuelle
-      const isDaytime = hour >= 8 && hour < 16; // De 6h à 18h = jour
+      const isDaytime = hour >= 8 && hour < 19; // De 6h à 18h = jour
       const isMobile = window.innerWidth <= 768; // Détection mobile
 
       // Définir la classe appropriée
